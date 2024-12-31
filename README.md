@@ -20,10 +20,10 @@ Student of Telecommunication Engineering
 ### Interest
 
 
-[<img src="assets\instagram.webp" height="60em" align="center" alt="Logo ig" title="Go Follow!"/>](https://www.instagram.com/dannyauliaa/)
+[<img src="assets/img\instagram.webp" height="60em" align="center" alt="Logo ig" title="Let's Contact!"/>](https://www.instagram.com/dannyauliaa/)
 
 
-[<img src="assets\linkedin.webp" height="60em" align="center" alt="Logo in" title="Let's Connect!"/>](https://www.linkedin.com/in/danny-aulia/)
+[<img src="assets/img\linkedin.webp" height="60em" align="center" alt="Logo in" title="Let's Connect!"/>](https://www.linkedin.com/in/danny-aulia/)
 
 <!--
 **dannyauliaa/dannyauliaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
