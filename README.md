@@ -3,15 +3,15 @@
 Hi there! 👋
 Student of Telecommunication Engineering
 
-## About Me
+### About Me
 
-**Bachelor of Telkom University [<img src="assets\telu.png" height="20em" align="center" alt="Logo TelU" title="Logo TelU"/>](https://telkomuniversity.ac.id/en):**
-**Head Assistant of Signal Processing for Intelligence Systems [<img src="assets\spis.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>](https://telkomuniversity.ac.id/en):**
-**Practicum Assistant of Multimedia Application, Big Data, and Cybersecurity**
+**Bachelor of Telkom University [<img src="assets\telu.png" height="20em" align="center" alt="Logo TelU" title="Logo TelU"/>]**
+**Head Assistant of Signal Processing for Intelligence Systems [<img src="assets\spis.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>]**
+**Practicum Assistant of Multimedia Application, Big Data, and Cybersecurity [<img src="assets\img\LOGO MBC.png" height="20em" align="center" alt="Logo MBC" title="Logo MBC"/>]**
 **Committee of ASEAN 2023**
 
 
-## Interest
+### Interest
 
 
 <!--
