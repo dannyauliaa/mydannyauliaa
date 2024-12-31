@@ -5,10 +5,16 @@ Student of Telecommunication Engineering
 
 ### About Me
 
-**Bachelor of Telkom University [<img src="assets/img\telu.png" height="20em" align="center" alt="Logo TelU" title="Logo TelU"/>]**
-**Head Assistant of Signal Processing for Intelligence Systems [<img src="assets/img\Logo SPIS.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>]**
-**Practicum Assistant of Multimedia Application, Big Data, and Cybersecurity [<img src="assets/img\Logo MBC.png" height="20em" align="center" alt="Logo MBC" title="Logo MBC"/>]**
-**Committee of ASEAN 2023 [<img src="assets/img\ASEAN Indonesia 2023 Logo.png" height="20em" align="center" alt="Logo ASEAN Indonesia 2023" title="Logo Asean Indonesia 2023"/>]****
+**Bachelor of Telkom University [<img src="assets/img\telu.png" height="20em" align="center" alt="Logo TelU" title="Logo TelU"/>]:**
+
+
+**Head Assistant of Signal Processing for Intelligence Systems [<img src="assets/img\Logo SPIS.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>]:**
+
+
+**Practicum Assistant of Multimedia Application, Big Data, and Cybersecurity [<img src="assets/img\Logo MBC.png" height="20em" align="center" alt="Logo MBC" title="Logo MBC"/>]:**
+
+
+**Committee of ASEAN 2023 [<img src="assets/img\ASEAN Indonesia 2023 Logo.png" height="20em" align="center" alt="Logo ASEAN Indonesia 2023" title="Logo Asean Indonesia 2023"/>]:**
 
 
 ### Interest
