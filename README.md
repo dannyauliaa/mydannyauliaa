@@ -5,8 +5,7 @@ Student of Telecommunication Engineering
 
 ### About Me
 
-
-**Bachelor of Telkom University <img src="assets/img\telu.png" height="20em" align="center" alt="Logo TelU" title="Logo TelU"/>**
+**Bachelor of Telkom University <img src="assets/img\Logo TelU.png" height="20em" align="center" alt="Logo TelU" title="Logo Telkom University"/>**
 
 
 **Head Assistant of Signal Processing for Intelligence Systems <img src="assets/img\Logo SPIS.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>**
