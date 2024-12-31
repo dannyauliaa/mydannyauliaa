@@ -3,26 +3,24 @@
 Hi there! 👋
 Student of Telecommunication Engineering
 
-### About Me
+## About Me
 
-**Bachelor of Telkom University <img src="assets/img\Logo TelU.png" height="20em" align="center" alt="Logo TelU" title="Logo Telkom University"/>**
-
-
-**Head Assistant of Signal Processing for Intelligence Systems <img src="assets/img\Logo SPIS.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>**
+Bachelor of Telkom University <img src="assets/img\Logo TelU.png" height="20em" align="center" alt="Logo TelU" title="Logo Telkom University"/>
 
 
-**Practicum Assistant of Multimedia Application, Big Data, and Cybersecurity <img src="assets/img\Logo MBC.png" height="20em" align="center" alt="Logo MBC" title="Logo MBC"/>**
+Head Assistant of Signal Processing for Intelligence Systems <img src="assets/img\Logo SPIS.png" height="20em" align="center" alt="Logo SPIS" title="Logo SPIS"/>
 
 
-**Committee of ASEAN 2023 <img src="assets/img\ASEAN Indonesia 2023 Logo.png" height="20em" align="center" alt="Logo ASEAN Indonesia 2023" title="Logo Asean Indonesia 2023"/>**
+Practicum Assistant of Multimedia Application, Big Data, and Cybersecurity <img src="assets/img\Logo MBC.png" height="20em" align="center" alt="Logo MBC" title="Logo MBC"/>
 
 
-### Interest
+Committee of ASEAN 2023 <img src="assets/img\ASEAN Indonesia 2023 Logo.png" height="20em" align="center" alt="Logo ASEAN Indonesia 2023" title="Logo Asean Indonesia 2023"/>
+
+
+## Interest
 
 
 [<img src="assets/img\instagram.webp" height="60em" align="center" alt="Logo ig" title="Let's Contact!"/>](https://www.instagram.com/dannyauliaa/)
-
-
 [<img src="assets/img\linkedin.webp" height="60em" align="center" alt="Logo in" title="Let's Connect!"/>](https://www.linkedin.com/in/danny-aulia/)
 
 <!--
