@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四季の美 | Japanese Seasons Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Season Animation Background -->
+    <div id="season-background">
+        <div id="particles-container"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-jp">四季の美</span>
+                <span class="logo-en">Seasons Beauty</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-section="home">ホーム</a></li>
+                <li><a href="#about" data-section="about">プロフィール</a></li>
+                <li><a href="#portfolio" data-section="portfolio">作品集</a></li>
+                <li><a href="#social" data-section="social">ソーシャル</a></li>
+                <li><a href="#contact" data-section="contact">連絡</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Season Selector -->
+    <div class="season-selector">
+        <button class="season-btn active" data-season="spring" title="春 (Spring)">
+            <i class="fas fa-cherry-blossom"></i>
+        </button>
+        <button class="season-btn" data-season="summer" title="夏 (Summer)">
+            <i class="fas fa-leaf"></i>
+        </button>
+        <button class="season-btn" data-season="autumn" title="秋 (Autumn)">
+            <i class="fas fa-maple-leaf"></i>
+        </button>
+        <button class="season-btn" data-season="winter" title="冬 (Winter)">
+            <i class="fas fa-snowflake"></i>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="title-jp">美しいデジタル体験を</span>
+                            <span class="title-en">Crafting Beautiful Digital Experiences</span>
+                        </h1>
+                        <p class="hero-subtitle">革新的なデザインと創造的なソリューションを通じて</p>
+                        <p class="hero-description">
+                            こんにちは、私たちは四季の美チームです。日本の美しい四季からインスピレーションを得て、
+                            美しいデジタル体験を創造しています。このウェブサイトでは、私たちの作品と情熱を
+                            四季の移ろいと共に表現しています。
+                        </p>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <img src="https://via.placeholder.com/200x200/FF69B4/FFFFFF?text=プロフィール" alt="Profile">
+                            </div>
+                            <div class="profile-info">
+                                <h3>四季 美桜</h3>
+                                <p>@shiki_mio</p>
+                                <span class="profile-quote">"季節と共に創造する 🌸"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-jp">プロフィール</span>
+                    <span class="title-en">PROFILE</span>
+                </h2>
+                
+                <div class="profile-grid">
+                    <div class="profile-main">
+                        <div class="profile-card-large">
+                            <div class="profile-header">
+                                <img src="https://via.placeholder.com/150x150/FF69B4/FFFFFF?text=美桜" alt="Profile" class="profile-avatar">
+                                <div class="profile-names">
+                                    <h3 class="name-jp">四季 美桜</h3>
+                                    <h4 class="name-en">Shiki Mio</h4>
+                                    <p class="username">@shiki_mio</p>
+                                </div>
+                            </div>
+                            
+                            <div class="profile-details">
+                                <div class="detail-group">
+                                    <h4>ステータス</h4>
+                                    <div class="detail-item">
+                                        <span class="label">職業:</span>
+                                        <span class="value">UI/UXデザイナー</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <span class="label">誕生日:</span>
+                                        <span class="value">3月21日</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <span class="label">年齢:</span>
+                                        <span class="value">ひみつ ✨</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="detail-group">
+                                    <h4>好きなもの</h4>
+                                    <div class="likes-grid">
+                                        <span class="like-item">デザイン</span>
+                                        <span class="like-item">桜</span>
+                                        <span class="like-item">抹茶</span>
+                                        <span class="like-item">アニメ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-side">
+                        <div class="seasonal-mood">
+                            <h4>今の気分</h4>
+                            <p id="seasonal-mood-text">春の暖かさに心も軽やか 🌸</p>
+                        </div>
+                        
+                        <div class="stats-card">
+                            <h4>統計</h4>
+                            <div class="stat-item">
+                                <span class="stat-label">プロジェクト</span>
+                                <span class="stat-value">24</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">経験年数</span>
+                                <span class="stat-value">5年</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">好きな季節</span>
+                                <span class="stat-value">春</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-jp">作品集</span>
+                    <span class="title-en">PORTFOLIO</span>
+                </h2>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x250/FFB6C1/FFFFFF?text=春のアプリ" alt="Spring App">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>桜モバイルアプリ</h3>
+                            <p>春の美しさを表現したモバイルアプリケーションのUI/UXデザイン</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Spring</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x250/90EE90/FFFFFF?text=夏のWebサイト" alt="Summer Website">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>緑のECサイト</h3>
+                            <p>夏の生命力をテーマにしたEコマースプラットフォームの完全リデザイン</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Web Design</span>
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Summer</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x250/DEB887/FFFFFF?text=秋のブランディング" alt="Autumn Branding">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>紅葉ブランドアイデンティティ</h3>
+                            <p>秋の温かみを表現した完全なブランドアイデンティティデザイン</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Branding</span>
+                                <span class="tag">Identity</span>
+                                <span class="tag">Autumn</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x250/E0E6FF/FFFFFF?text=冬のアプリ" alt="Winter App">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>雪のフィットネスアプリ</h3>
+                            <p>冬の清浄さを表現したフィットネストラッキングアプリ</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Fitness</span>
+                                <span class="tag">Winter</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Section -->
+        <section id="social" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-jp">ソーシャル</span>
+                    <span class="title-en">SOCIAL</span>
+                </h2>
+                
+                <p class="section-subtitle">公式ソーシャルメディアチャンネルで私たちとつながりましょう</p>
+                
+                <div class="social-grid">
+                    <div class="social-card">
+                        <div class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <h3>Twitter</h3>
+                        <p>日々の制作過程や季節の美しさについてツイートしています</p>
+                        <a href="#" class="social-link">@shiki_mio_design</a>
+                    </div>
+                    
+                    <div class="social-card">
+                        <div class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>Instagram</h3>
+                        <p>四季折々のデザインインスピレーションを写真で共有</p>
+                        <a href="#" class="social-link">@shikimio.design</a>
+                    </div>
+                    
+                    <div class="social-card">
+                        <div class="social-icon behance">
+                            <i class="fab fa-behance"></i>
+                        </div>
+                        <h3>Behance</h3>
+                        <p>詳細なプロジェクトケーススタディとデザインプロセス</p>
+                        <a href="#" class="social-link">behance.net/shikimio</a>
+                    </div>
+                    
+                    <div class="social-card">
+                        <div class="social-icon dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </div>
+                        <h3>Dribbble</h3>
+                        <p>創作活動のショット作品とデザインエクスプロレーション</p>
+                        <a href="#" class="social-link">dribbble.com/shikimio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-jp">連絡</span>
+                    <span class="title-en">CONTACT</span>
+                </h2>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>プロジェクトのご相談はこちら</h3>
+                        <p>あなたのアイデアを実現するお手伝いをさせていただきます。次のプロジェクトについてお話ししましょう。</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@shikimio.design</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <span>+81 (0)3-1234-5678</span>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Tokyo, Japan</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">件名</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">メッセージ</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">送信する</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container">
+        <button class="fab-main" id="fabMain">
+            <i class="fas fa-plus"></i>
+        </button>
+    </div>
+
+    <!-- Profile Selection Popup -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-container">
+            <div class="popup-header">
+                <h3>プロフィール選択</h3>
+                <button class="popup-close" id="popupClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="popup-content">
+                <div class="popup-left">
+                    <div class="profile-selector">
+                        <div class="profile-option active" data-profile="mio">
+                            <img src="https://via.placeholder.com/50x50/FF69B4/FFFFFF?text=美桜" alt="Mio">
+                            <div class="profile-option-info">
+                                <h4>四季 美桜</h4>
+                                <p>メインデザイナー</p>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-option" data-profile="hana">
+                            <img src="https://via.placeholder.com/50x50/98FB98/FFFFFF?text=花音" alt="Hana">
+                            <div class="profile-option-info">
+                                <h4>桜庭 花音</h4>
+                                <p>UIデザイナー</p>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-option" data-profile="aki">
+                            <img src="https://via.placeholder.com/50x50/DEB887/FFFFFF?text=秋人" alt="Aki">
+                            <div class="profile-option-info">
+                                <h4>紅葉 秋人</h4>
+                                <p>UXデザイナー</p>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-option" data-profile="yuki">
+                            <img src="https://via.placeholder.com/50x50/E0E6FF/FFFFFF?text=雪花" alt="Yuki">
+                            <div class="profile-option-info">
+                                <h4>白雪 雪花</h4>
+                                <p>グラフィックデザイナー</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="popup-right">
+                    <div class="profile-preview" id="profilePreview">
+                        <div class="preview-header">
+                            <img src="https://via.placeholder.com/100x100/FF69B4/FFFFFF?text=美桜" alt="Preview" id="previewImage">
+                            <div class="preview-info">
+                                <h3 id="previewName">四季 美桜</h3>
+                                <p id="previewRole">メインデザイナー</p>
+                                <p id="previewUsername">@shiki_mio</p>
+                            </div>
+                        </div>
+                        
+                        <div class="preview-details">
+                            <h4>専門分野</h4>
+                            <div class="preview-skills" id="previewSkills">
+                                <span class="skill-tag">UI/UX Design</span>
+                                <span class="skill-tag">Web Design</span>
+                                <span class="skill-tag">Branding</span>
+                            </div>
+                            
+                            <h4>メッセージ</h4>
+                            <p id="previewMessage">四季の美しさからインスピレーションを得て、心に響くデザインを創造します。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
